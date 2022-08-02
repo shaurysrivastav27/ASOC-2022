@@ -1,6 +1,6 @@
 # Shared Task on Bias, Threat and Aggression Identification in Context(BiTAg-Con)
 
-![]()
+![](https://github.com/shaurysrivastav27/ASOC-2022/blob/main/images/chart.png)
 ## Abstract
 Aggression and its manifestations in different forms have taken unprecedented proportions with the tremendous growth of the internet and social media. In this model we are working on different aspects of aggressive and offensive language usage online and its automatic identification. We have classified each sample at seven different levels namely aggression level, aggression intensity, discursive role, gender bias, religious bias, caste/class bias and ethnicity/racial bias. The sample can be given any combinations of the tags and the occurrence of one is not dependent on the other.
 
@@ -30,7 +30,7 @@ Removing Punctuation marks and special symbols: All kinds of punctuation marks a
 Lowering of dataset: we have lowered the case of the sentences of the dataset to form uniformity in the dataset and we don't have to care about the case of the dataset then.
 One Hot Encoding: Categorical offensive values were label encoded as 0,1,2 to negative and positive words respectively. This was done to give a numeric representation to the categorical data.
 We have considered Logistic Regression, Naïve Bayes and support vector machine (SVM) for text classifications. We have used training data on each model by performing GridSearchCV for all the combinations of feature parameters. We have analyzed performance on the basis of average score of the cross validation.
-![]()
+
 
 ### SVM(Support vector machine) 
 The first model with which we started out was SVM as its state of the art for classification tasks. The parameters we used were 
@@ -56,6 +56,7 @@ So , it breaks down the word into ‘AN’ ,’NA’ , which isn’t even close 
 The other reason was, these were simple classification tasks : i.e: whether a sentence is aggressive or not . 
 So the presence of certain words were the only parameters we had to take care of . 
 Hence, in our case logistic regression performed really well. 
+![](https://github.com/shaurysrivastav27/ASOC-2022/blob/main/images/Screenshot%20from%202022-08-02%2010-25-35.png)
 
 # Shared task on dravidian Languages (Ongoing)
 
